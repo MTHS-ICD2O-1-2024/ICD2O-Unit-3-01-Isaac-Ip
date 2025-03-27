@@ -17,14 +17,11 @@ function doMathClicked() {
    
     // process
     const areaOfTrapezoid = (sideA + sideB) * heightLength / 2
-    const perimeterOfTrapezoid = sideA + sideB + sideC + sideD
    
    
     // output
     document.getElementById("area").innerHTML =
       "<p>The area is: " + areaOfTrapezoid + " cm². </p>"
-    document.getElementById("perimeter").innerHTML =
-      "<p>The perimeter is: " + perimeterOfTrapezoid + " cm. </p>"
    }
    
    
